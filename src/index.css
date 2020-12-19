@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-family: Castellar;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.date{
+    text-align: center;
+    font-size: 20px;
+}
+
+.todo-div{
+    margin-bottom: 30px;
+    margin-left: 20%;
+    width: 50%;
+}
+.todo{
+    height: 60px;
+    width: 100%;
+    border: 1px solid grey;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 2px;
+
+}
+.todo-item{
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
+}
+.edit-todo{
+    text-align: right;
+    margin-top: -50px;
+    
+}
+.add-todo{
+    height: 60px;
+    width: 50%;
+    font-size: 25px;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
+    border-bottom: 2px solid blue;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    outline: none;
 }
